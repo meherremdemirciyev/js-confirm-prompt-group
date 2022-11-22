@@ -6,15 +6,15 @@ function Group(){
   var name = document.getElementById('input').value;
     if (name.length>=4) {
         var checkname = name.slice(-3,-2);
-        if (checkname =='1') {
+        if (checkname == 1) {
             alert(`Welcome ${name}`);
             document.body.style.backgroundColor = 'orange';
         }
-        else if(checkname =='2'){
+        else if(checkname == 2){
             alert(`Welcome ${name}`);
             document.body.style.backgroundColor = 'green';
         }
-        else if(checkname =='3'){
+        else if(checkname == 3){
             alert(`Welcome ${name}`);
             document.body.style.backgroundColor = 'red';
         }
@@ -29,7 +29,7 @@ function Group(){
 
 
 
-//Confirm-Task2
+//Confirm-Task3
 
 // function Demo() {
 //     let content;
@@ -43,7 +43,7 @@ function Group(){
 //     document.getElementById("verify").innerHTML=content;
 // }
 
-//Prompt-Task3
+//Prompt-Task2
 
 
 // function Show(){
