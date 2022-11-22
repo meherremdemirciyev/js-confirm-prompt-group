@@ -1,6 +1,6 @@
 
 
-//Group-Task1
+//Group-Task3
 
 function Group(){
   var name = document.getElementById('input').value;
@@ -29,7 +29,7 @@ function Group(){
 
 
 
-//Confirm-Task3
+//Confirm-Task1
 
 // function Demo() {
 //     let content;
@@ -37,8 +37,7 @@ function Group(){
 //       content = "Welcome";
 //       document.body.style.backgroundColor = 'green';
 //     } else {
-//       content = "Fail Attempt";
-//       document.body.style.backgroundColor = 'red';
+//       document.body.style.display = 'none';
 //     }
 //     document.getElementById("verify").innerHTML=content;
 // }
